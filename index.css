@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* --- Chế độ Sáng --- */
+.bg-white {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* --- Chế độ Tối --- */
+.bg-dark {
+  background-color: #242424;
+  color: #ffffff;
+}
+
+/* Làm cho ô nhập liệu và bảng hiển thị rõ trong chế độ tối */
+.bg-dark input {
+  background-color: #333333;
+  color: #ffffff;
+  border: 1px solid #666;
+}
+
+.bg-dark table, .bg-dark th, .bg-dark td {
+  border-color: #555;
+}
